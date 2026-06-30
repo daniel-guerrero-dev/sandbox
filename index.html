@@ -12,6 +12,7 @@
         <ul>
             <li><a href="#text-study">Learning about text</a></li>
             <li><a href="#list-study">Learning about Lists</a></li>
+            <li><a href="#input-study">Learning about Inputs</a></li>
         </ul>
     </nav>
     </header>
@@ -58,6 +59,51 @@
     <hr>
     <section id="image-study">
         <img src="https://wiki.guildwars2.com/images/0/0b/Relic_of_the_Dragonhunter.png" alt="Relic of the dragonhunter logo" loading="lazy">
+    </section>
+    <hr>
+    <section id="input-study">
+        <h2>Contact me</h2>
+        <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>Personal information</legend>
+            <p>
+                <label for="firstName">First Name:</label>
+                <input type="text" name="firstName" id="firstName" placeholder="Name here" required>
+            </p>
+            <p>
+                <label for="lastName">Last Name:</label>
+                <input type="text" name="lastName" id="lastName" placeholder="Last name here" required>
+            </p>
+            <p>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" placeholder="Monkahmmm" required>
+            </p>
+            <p>
+                <label for="phone">Phone number:</label>
+                <input type="tel" name="phone" id="phone" placeholder="000-000-0000" pattern="[0,9]{3}[0,9]{3}[0,9]{4}" required>
+            </p>
+            <p>
+                <label for="year">Year born:</label>
+                <input type="number" name="year" id="year" min="1900" max="2026" step="5" value="1990" required>
+            </p>
+            <p>
+                <label for="pets">Favorite pets:</label>
+                <select name="pets" id="pets" multiple size="3">
+                    <optgroup label="Small animals">
+                        <option value="Cats">Cats</option>
+                        <option value="Dogs">Dogs</option>
+                        <option value="Bunnies">Bunnies</option>
+                    </optgroup>
+                    <optgroup label="Big animals">
+                        <option value="Horse">Horse</option>
+                        <option value="Bear">Bear</option>
+                        <option value="Bunny">Bunny</option>
+                    </optgroup>
+                    <option value="other">other</option>
+                </select>
+                </fieldset>
+            </p>
+        </form>
     </section>
     </main>
     <footer>
