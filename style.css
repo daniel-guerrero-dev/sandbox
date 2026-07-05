@@ -7,3 +7,11 @@ body{
 #text-study{
     font-style: italic;
 }
+
+h1 {
+    color: blue;
+}
+
+.contact-page{
+    font-style: italic;
+}
