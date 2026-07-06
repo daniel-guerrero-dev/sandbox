@@ -16,3 +16,16 @@ h1 {
 .contact-page{
     font-style: italic;
 }
+
+nav ul li{
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0;
+    margin-left: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 1200px;
+}
