@@ -23,4 +23,18 @@ h2 {
     width: 450px;
     padding: 25px;
 }
+.container-practice{
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
 
+}
+.container-practice div{
+    flex: 1;
+}
+.ordered ol li, .unordered ul li{
+    align-items: start;
+    text-align: left;
+}
