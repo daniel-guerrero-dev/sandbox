@@ -6,27 +6,29 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Document</title>
 </head>
-<body class="flex flex-col justify-between h-screen bg-blue-900 box-border">
-    <header class="bg-blue-950 p-5 text-gray-500">
+<body class="flex flex-col justify-between h-screen box-border bg-gradient-to-r from-black to-blue-900">
+    <header class="p-5 text-gray-500 bg-gradient-to-l from-black to-blue-950 shadow-lg shadow-indigo-500">
         <nav>
-            <ul><li>Go back</li></ul>
+            <ul><li><a href="index.html">Go back</a></li></ul>
         </nav>
     </header>
-    <main class="flex justify-center align-center">
-        <div>
+    <main class="flex justify-center align-center flex-col justify-between items-center gap-10 py-4">
+        <div class="font-serif h-100 w-200 flex justify-center items-center border-2 border-black rounded-lg text-5xl shadow-lg shadow-indigo-500 text-white">
             Daniel Guerrero
         </div>
-        <div>
-            Who I am
-        </div>
-        <div>
-            What I want to achieve
+        <div class="flex justify-between gap-10 text-white">
+            <div class="border-2 h-40 w-60 flex-wrap flex justify-center items-center px-4 rounded-lg shadow-lg shadow-indigo-500">
+                I'm a physics student making a switch into a web development career.
+            </div>
+            <div class="border-2 w-60 flex-wrap flex justify-center items-center px-4 rounded-lg shadow-lg shadow-indigo-500">
+                I want to become a full stack web developer, with a techstack comprised of "Tailwind CSS", "React", "Next.js" and "MongoDB"
+            </div>
         </div>
     </main>
-    <footer class="bg-blue-950 p-5 text-gray-500">
+    <footer class="p-5 text-gray-500 bg-gradient-to-l from-black to-blue-950">
         <ul class="flex gap-10">
-            <li>Github</li>
-            <li>LinkedIn</li>
+            <li><a href="https://github.com/daniel-guerrero-dev">Github</a></li>
+            <li><a href="https://bsky.app/profile/danielguerrerodev.bsky.social">Bluesky</a></li>
         </ul>
     </footer>
 </body>
